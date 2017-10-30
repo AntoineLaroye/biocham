@@ -1,0 +1,14 @@
+'MA'(kl)for a=>L.
+'MA'(kx)for a=>X.
+
+parameter(kl=1).
+parameter(kx=0).
+
+add_event(L>1,kl=0,kx=1,L=0,a=10).
+add_event(X>1,kl=1,kx=0,X=0,a=10).
+
+present(a,10).
+make_absent_not_present.
+
+numerical_simulation(time:10).
+plot.

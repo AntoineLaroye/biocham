@@ -1,0 +1,11 @@
+'MA'(k)for X=>L.
+
+parameter(k=1).
+
+add_event(X<0.5,k=0).
+
+present(X).
+
+numerical_simulation(time:2).
+
+plot.
