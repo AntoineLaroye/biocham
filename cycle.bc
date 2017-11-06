@@ -7,7 +7,7 @@ parameter(k2=0).
 %add_event(X>1,k=0).
 %add_event(X<0.5,k=1).
 
-add_event(L>=0.999,k2=0.01,k=0).
+add_event(L>=0.99,k2=0.01,k=0).
 add_event(L<=0.001,k2=0,k=0.01).
 
 present(X,1).
